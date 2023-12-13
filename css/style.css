@@ -1,0 +1,83 @@
+body{
+    font-family: Arial Roboto;
+    margin: 0;
+    
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 967px;
+    
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgb(222, 217, 217);
+    margin-bottom: 40px;
+}
+.nav-logo img{
+    width: 100px;
+}
+.nav-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 166, 1);
+}
+.input-grid-div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 40px;
+    border: none;
+    column-gap: 20px;
+    
+    border-width: 0.5px;
+    border-color: rgb(244, 226, 226);
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(182, 180, 180);
+   
+}
+.cs-input{
+    border: 0;
+    border-radius: 10px;
+    padding: 14px 10px;
+    background-color: transparent;
+    color: #525252;
+    font-size: 15px;
+    width: 85%;
+    border-color: red;
+}
+
+.cs-input::placeholder{
+    font-style: italic;
+    
+}
+.fa-plus-circle{
+    font-size: 25px;
+    cursor: pointer;
+    
+
+}
+.grid-input{
+    display: grid;
+    grid-template-columns: 1fr 50px 50px;
+    align-items: center;
+    justify-content: center;
+    row-gap: 50px;
+    padding: 10px 0;
+}
+.fa-trash{
+    color: red;
+    cursor: pointer;
+}
+.edit-image{
+    width: 22px;
+    cursor: pointer;
+    
+
+}
